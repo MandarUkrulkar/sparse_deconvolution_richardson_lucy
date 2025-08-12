@@ -24,7 +24,7 @@ conda env create -f environment.yml
 conda activate sparse_deconv
 
 
-**Design & intuition (short)**
+## Design & intuition (short)
 
 We treat the observed image I as I = S * K + noise, where S is the true image and K the PSF (Gaussian by default). The algorithm:
 
@@ -44,7 +44,7 @@ Process each color channel separately and re-merge.
 
 See diagrams/flow.svg and diagrams/channels.svg for visual explanation.
 
-**Tips & tuning**
+## Tips & tuning
 iterations: 8–20 is usually good. Increase slowly.
 
 psf_sigma: controls assumed blur — larger sigma => stronger deblurring.
