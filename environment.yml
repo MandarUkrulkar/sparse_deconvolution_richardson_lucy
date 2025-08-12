@@ -1,0 +1,12 @@
+name: sparse_deconv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - opencv
+  - tqdm
+  - pip
+  - scipy
+  #- pip:
+   #   - cupy-cuda12x   # if you have CUDA 12.x; change to cupy-cuda11x for CUDA11
