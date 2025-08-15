@@ -1,4 +1,4 @@
-# Sparse Deconvolution (Richardson–Lucy) — histology tile enhancer
+# Sparse Deconvolution (Richardson–Lucy) — Hematology/histology tile enhancer
 
 This repository contains a production-ready script to apply (stable) Richardson–Lucy deconvolution to histology tile images with optional GPU acceleration (CuPy). It includes safeguards against instability, per-channel color preservation, and configurable PSF/iterations.
 
